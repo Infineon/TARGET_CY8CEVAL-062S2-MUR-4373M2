@@ -33,11 +33,7 @@
 #if (defined(CY_DEVICE_TVIIBE))
 #include "cmsis_compiler.h"
 
-#if defined(CY_DEVICE_TVIIBE4M)
-#include "tviibe4m_partition.h"
-#elif defined(CY_DEVICE_TVIIBE1M)
-#include "tviibe1m_partition.h"
-#endif
+#include "tviibe_partition.h"
 
 #define CY_SYS_CM4_PWR_CTL_KEY_OPEN  (0x05FAUL)
 #define CY_SYS_CM4_PWR_CTL_KEY_CLOSE (0xFA05UL)
@@ -810,7 +806,7 @@ void SystemInit(void)
 #endif /* !defined(CY_IPC_DEFAULT_CFG_DISABLE) */
 
     #if defined(CY_DEVICE_SECURE)
-        /* Initialize Protected Regsiter Access driver. */
+        /* Initialize Protected Register Access driver. */
         Cy_PRA_Init();
     #endif /* defined(CY_DEVICE_SECURE) */
 }
