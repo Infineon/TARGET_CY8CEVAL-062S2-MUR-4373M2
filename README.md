@@ -2,9 +2,9 @@
 
 ## Overview
 
-The CY8CEVAL-062S2 PSoC™ 62S2 Evaluation Kit enables you to evaluate and develop applications using PSoC™ 62 MCU. The PSoC™ 62S2 evaluation kit features an M.2 interface that enables you to connect the supported M.2 radio cards based on AIROC™ Wi-Fi/Bluetooth® combo devices. It comes with industry-leading CAPSENSE™ for touch buttons and slider, on-board debugger/programmer with KitProg3, microSD card interface, 512-Mb Quad-SPI NOR flash, PDM-PCM microphone interface, mikroBUS add-on board interface for peripheral expansion, OPTIGA Trust M device.     
+The CY8CEVAL-062S2 PSOC™ 62S2 Evaluation Kit enables you to evaluate and develop applications using PSOC™ 62 MCU. The PSOC™ 62S2 evaluation kit features an M.2 interface that enables you to connect the supported M.2 radio cards based on AIROC™ Wi-Fi/Bluetooth® combo devices. It comes with industry-leading CAPSENSE™ for touch buttons and slider, on-board debugger/programmer with KitProg3, microSD card interface, 512-Mb Quad-SPI NOR flash, PDM-PCM microphone interface, mikroBUS add-on board interface for peripheral expansion, OPTIGA Trust M device.     
 **Note:**
-CY8CEVAL-062S2-MUR-4373EM2 is the board support package for the PSoC™ 62S2 Evaluation Kit in combination with the Embedded Artists 2BC Wi-Fi/Bluetooth® M.2 radio module and supports PSoC™ 6 MCU examples and Wi-Fi/Bluetooth® connectivity examples.
+CY8CEVAL-062S2-MUR-4373EM2 is the board support package for the PSOC™ 62S2 Evaluation Kit in combination with the Embedded Artists 2BC Wi-Fi/Bluetooth® M.2 radio module and supports PSOC™ 6 MCU examples and Wi-Fi/Bluetooth® connectivity examples.
 
 
 
@@ -22,7 +22,7 @@ To use code from the BSP, simply include a reference to `cybsp.h`.
 
 ### Kit Contents:
 
-* PSoC™ 62S2 Evaluation Board
+* PSOC™ 62S2 Evaluation Board
 * USB Type-A to Micro-B cable
 * Four jumper wires (4 inches each)
 * Two jumper wires (5 inches each)
