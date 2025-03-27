@@ -63,5 +63,5 @@ DEVICE_CYW4373IUBGT_DIE:=4373A0A
 DEVICE_CYW4373IUBGT_FLASH_KB:=0
 DEVICE_CYW4373IUBGT_SRAM_KB:=896
 DEVICE_LIST:=CY8C624ABZI-S2D44 CYW4373IUBGT
-DEVICE_TOOL_IDS:=bsp-assistant bt-configurator capsense-configurator capsense-tuner device-configurator dfuh-tool library-manager lin-configurator ml-configurator project-creator qspi-configurator seglcd-configurator smartio-configurator usbdev-configurator
+DEVICE_TOOL_IDS:=bsp-assistant bt-configurator capsense-configurator capsense-tuner device-configurator dfuh-tool library-manager lin-configurator ml-configurator motor-suite-gui project-creator qspi-configurator seglcd-configurator smartio-configurator usbdev-configurator
 RECIPE_DIR:=$(SEARCH_recipe-make-cat1a)
